@@ -22,6 +22,7 @@ int main(){
      vector<int>::iterator it2 = lower_bound(A.begin(), A.end(),100);
      cout << *it << " " *it2 << endl;
      cout << it2 - it << endl;
+     cout << "this is git testing" << endl;
     
 
 
