@@ -1,0 +1,40 @@
+git config --global user.email "chatrughan.prasad@outlook.com"
+git config --global user.email
+git config --global user.name
+git config --global --edit
+git config --global --edit
+mkdir gitfolder
+cd gitfolder
+git init c:/cproject
+git status
+git add main.cpp => This command adds a file to the staging area
+git add * => This command adds one or more to the staging area
+git commit -m "[ Type in the commit message]" => This command records or snapshots the file permanently in the version history.
+git commit -a => This command commits any files you’ve added with the git add command and also commits any files you’ve changed since then.
+git diff => This command shows the file differences which are not yet staged.
+Usage: git diff --staged 
+git diff [first branch] [second branch]
+Usage git diff master dev
+git reset [file] --hard(optional) [commit] 
+git status
+git rm file
+git log
+gil log --follow gitfolder
+git show
+git tag [commitID]  
+git branch => This command lists all the local branches in the current repository
+git branch [branch name] => create a new branch
+git branch -d [branch name] => This command deletes the feature branch
+git checkout [branch name] => This command is used to switch from one branch to another
+git checkout dev
+git checkout -b [branch name] => This command creates a new branch and also switches to it.
+git merge [branch name]  
+git merge master
+git remote add orgin https://github.com/chatru-vs/gittestrepo (make a repository in github and provide the URL here)
+git push origin master
+git push --all orgin => This command pushes all branches to your remote repository.
+git pull https://github.com/chatru-vs/employee-management-webapp.git
+git clone https://github.com/chatru-vs/employee-management-webapp.git
+git stash pop => This command restores the most recently stashed files
+git stash list => This command lists all stashed changesets
+git stash drop  => This command discards the most recently stashed changeset
